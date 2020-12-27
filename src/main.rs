@@ -1,6 +1,7 @@
 use std::io;
 use std::io::Write;
 use rand::Rng;
+use conrod::backend::glium::glium::{self, Surface};
 
 fn main()
 {
